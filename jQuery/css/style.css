@@ -1,0 +1,70 @@
+.desaparecer{
+  width:100px;
+  height:100px;
+  background-color:#717171;
+  padding:5px;
+  display:inline-block;
+  border-radius:5%;
+}
+div p{
+  height:55px;
+}
+
+.slideDiv{
+position: absolute;
+  top: 20px;
+  right: 0px;
+  background-color: #669ade;
+  height: 250px;
+  padding: 0em;
+}
+#desliza{
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  background-color: rgb(155, 214, 11) ;
+  width:120px;
+  margin:0em 0em;
+  border-top: 2px solid rgb(7, 119, 5);
+}
+
+
+
+
+/* SLIDER*/
+.contenedor{
+  margin:0 auto;
+  width:50%;
+  height:20em;
+}
+
+#imagen1, #imagen2, #imagen3{
+  position: absolute;
+  width: 49.5%;
+  height:inherit;
+}
+.contenidoPuntos{
+  margin: auto;
+  text-align: center;
+  width: 50%;
+  height: 3em;
+  background-color: #d4c4f2;
+}
+.puntos li{
+  display: inline-block;
+  list-style: none;
+}
+
+ .puntos{
+  padding: 0em;
+  margin: 0px;
+  padding: 0em;
+}
+a{
+  text-decoration: none;
+  padding: 0em 1em;
+}
+a:hover{
+
+  background-color: white;
+}
