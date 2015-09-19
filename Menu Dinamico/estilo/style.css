@@ -1,0 +1,68 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: helvetica;
+
+}
+
+section#banner{
+  width: 100%;
+  background-image: url(../img/fondo.jpg);
+  background-attachment: contain; /* para que la imagen este en toda la pantalla*/
+
+  background-position: center;
+  background-repeat: no-repeat;
+
+}
+
+header{
+  position: fixed; /*menu fijo*/
+  width: 100%;
+  height: 6em;
+  background-color: transparent;
+  -webkit-transition: background-color 0.5s; 
+}
+nav{
+  display: table;
+  margin: auto;
+  margin-top: 1em;
+  height: 3em;
+
+  -webkit-transition: margin-left 0.5s;
+}
+
+
+ul{
+  display: block;
+  float:left;
+  list-style: none;
+
+}
+
+img#logo{
+  display: block;
+  float:left;
+  margin-left:2.5em;
+  margin-right:2.5em;
+  margin-top:17em;
+  width: 17em;
+  -webkit-transition: width 0.5s, height 0.5s , margin-right 0.5s ,margin-top 0.5s;
+
+}
+
+ul li{
+  float: left;
+  margin:1.5em;
+  padding: 0.1em;
+}
+
+ul a {
+  color:rgb(230, 230, 230);
+  text-decoration: none;
+}
+
+#body{
+  width: 100%;
+  height: 60em;
+
+}
