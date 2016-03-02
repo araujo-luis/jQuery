@@ -1,6 +1,8 @@
 var contador = 1;
 
 $(document).ready(function(){
+  var ancho = window.innerWidth;
+  console.log(ancho);
   $(".menu_bar").click(function(){
     if (contador===1) {
       $("nav").animate({
@@ -18,6 +20,10 @@ $(document).ready(function(){
 
   });
   $(".submenu").click(function(){
-    $(this).children(".hijos").slideToggle();
+
+      $(this).children(".hijos").slideToggle();
+    
+
+
   })
 });

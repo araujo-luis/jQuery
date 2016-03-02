@@ -1,0 +1,65 @@
+.content article{
+  padding: 100px 0;
+  max-width: 640px;
+  margin: 0 auto;
+  text-align: center;
+}
+/*logo el fondo con el pajaro*/
+body{
+  margin: 0;
+  padding: 0;
+}
+.caja{
+
+  position: relative;
+  height: 600px;
+  background: url("../img/bird-bg.jpg");
+  background-size: auto 600px;;
+
+  background-attachment: fixed;
+  overflow: hidden;
+}
+
+.logo{
+  height: 100px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  background-image: url("../img/black-bird-logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -40px;
+}
+
+.pajaro-frente{
+  background-image: url("../img/fore-bird.png");;
+  /*background-color: rgba(64, 176, 247, 0.3);*/
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  width: 960px;
+  height: 733px;
+  position: absolute;
+  left: 50%;
+  margin-left: -480px;
+  top: 380px;
+}
+
+.pajaro-fondo{
+  width: 960px;
+  height: 298px;
+  background-image: url("../img/back-bird.png");
+  background-repeat: no-repeat;
+  background-position: top left;
+  position: absolute;
+  left: 50%;
+
+  margin-left: -480px;
+}
+
+.numeros{
+  padding: 20px 20px;
+  width: 40px;
+  font-size: 20px;
+  background-color: #4a94be;
+  border-radius: 50%;
+}
